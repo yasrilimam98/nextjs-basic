@@ -4,8 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    max-width: 1400px;
-    margin: auto;
+  max-width: 1400px;
+  margin: auto;
+  height: 100%;
 }
 
 a {
@@ -17,6 +18,11 @@ a {
   box-sizing: border-box;
 }
 
-.title {
-  color: red;
+#__next {
+  height: 100%;
+}
+
+.title-not-found {
+  color: darkgray;
+  text-align: center;
 }
